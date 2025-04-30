@@ -1,7 +1,7 @@
 # MacoX-MD
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
-𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐞𝐬𝐭 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 𝐌𝐀𝐂𝐎𝐃𝐄𝐑 🌝💚
+𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐞𝐬𝐭 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 𝐌𝐀𝐂𝐎𝐃𝐄𝐑 🌝💚𝐌𝐚𝐝𝐞 𝐭𝐨 𝐦𝐚𝐤𝐞 𝐲𝐨𝐮𝐫 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐚𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧
 <div class = "repo" align = "center">
  
 <a href = "#">
@@ -16,7 +16,7 @@
 
 *_Start by forking this repository to your own GitHub account. Click the button below to fork:_*
 
-  <a href="https://github.com/macoder67/MacoX-MD/fork"><img title="MacoX-MD" src="https://img.shields.io/badge/FORK-MacoX-MDh?color=darkgreen&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/macoder67/MacoX-MD/fork"><img title="MacoX-MD" src="https://img.shields.io/badge/FORK-MacoX-MDh?color=orange&style=for-the-badge&logo=stackshare"></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
@@ -24,7 +24,7 @@
 
 > To deploy, generate your session ID from the link below:
 <p align="left">
-  <a href="https://malvin-pair-code-xzcb.onrender.com/?">
+  <a href="https://replit.com/?">
     <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
   </a>
 </p>
