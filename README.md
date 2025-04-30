@@ -8,7 +8,7 @@
 <img src = "https://files.catbox.moe/73mlk5.jpg"  width="300" height="200">
 </img>
  <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=MacoX-MD+MD+WHATSAPP+BOT+MD" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=MacoX-MD+WHATSAPP+BOT+MD" alt="">
    
 ## 𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐄𝐓𝐔𝐏 ↕️
 
@@ -16,7 +16,7 @@
 
 *_Start by forking this repository to your own GitHub account. Click the button below to fork:_*
 
-  <a href="https://github.com/macoder67/MacoX-MD/fork"><img title="MacoX-MD" src="https://img.shields.io/badge/FORK-MacoX-MDh?color=darkblue&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/macoder67/MacoX-MD/fork"><img title="MacoX-MD" src="https://img.shields.io/badge/FORK-MacoX-MDh?color=darkgreen&style=for-the-badge&logo=stackshare"></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
