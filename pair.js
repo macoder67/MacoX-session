@@ -91,7 +91,7 @@ router.get('/', async (req, res) => {
             }
 
             Maacoder.ev.on('creds.update', saveCreds);
-            Macodet.ev.on("connection.update", async (s) => {
+            Macoder.ev.on("connection.update", async (s) => {
                 const { connection, lastDisconnect } = s;
 
                 if (connection === "open") {
@@ -130,7 +130,7 @@ router.get('/', async (req, res) => {
 
 🚀 _Thanks for choosing MacoX-MD — Let the automation begin!_ ✨`;
 
-                    await Malvin.sendMessage(Malvin.user.id, { text: MALVIN_TEXT }, { quoted: session });
+                    await Macoder.sendMessage(Macoder.user.id, { text: MALVIN_TEXT }, { quoted: session });
 
                     await delay(100);
                     await Macoder.ws.close();
