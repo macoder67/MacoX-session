@@ -5,7 +5,7 @@
 					return await removeFile("temp/" + id);
 				} else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
 					await delay(10000);
-					MacoX_MDD_QR_CODE();
+					MacoX_MD_QR_CODE();
 				}
 			});
 		} catch (err) {
