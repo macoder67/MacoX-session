@@ -43,12 +43,12 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fmacoder67%2FMacoX-MD) 
    
    
-  2..DEPLOY ON RENDER ⤵️
+  2..𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐑𝐄𝐍𝐃𝐄𝐑 ⤵️
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/macoder67/MacoX-MD.git)
 
 
-   3..DEPLOY ON GITHUB ⤵️
+   3..𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐆𝐈𝐓𝐇𝐔𝐁 ⤵️
 
 
 </details>
@@ -97,13 +97,13 @@ jobs:
 ```
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
-### Thank You young Lad
+### Thank You young Lad👨‍🚀
 
-> DEVELOPER OF MacoX-MD 
+> 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 𝗢𝗙 𝗠𝗮𝗰𝗼𝗫-𝗠𝗗👨‍💻
 - [macoder ](https://github.com/macoder67)
-- Creater and Owner Of MacoX-MD
+- 𝗖𝗥𝗘𝗔𝗧𝗢𝗥 𝗔𝗡𝗗 𝗢𝗪𝗡𝗘𝗥👨‍🔧 𝗢𝗙 𝗠𝗮𝗰𝗼𝗫-𝗠𝗗
 
-> MacoX-MD Helper
+> 𝗠𝗮𝗰𝗼𝗫-𝗠𝗗🤖 𝗛𝗘𝗟𝗣𝗘𝗥
 - [macoder](https://github.com/macoder67)
 - For helping in bot plugin files.
 ---
