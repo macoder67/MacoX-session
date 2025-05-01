@@ -1,4 +1,4 @@
-const { malvinid } = require('./id'); 
+const { macoderid } = require('./id'); 
 const express = require('express');
 const fs = require('fs');
 let router = express.Router();
@@ -62,14 +62,14 @@ function removeFile(FilePath) {
 
 // Router to handle pairing code generation
 router.get('/', async (req, res) => {
-    const id = malvinid(); 
+    const id = macoderid(); 
     let num = req.query.number;
 
-    async function MALVIN_PAIR_CODE() {
+    async function MACODER_PAIR_CODE() {
         const { state, saveCreds } = await useMultiFileAuthState('./temp/' + id);
 
         try {
-            let Malvin = Malvin_Tech({
+            let Malvin = Macoder_tech({
                 auth: {
                     creds: state.creds,
                     keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -79,10 +79,10 @@ router.get('/', async (req, res) => {
                 browser: Browsers.macOS("Safari")
             });
 
-            if (!Malvin.authState.creds.registered) {
+            if (!Macoder.authState.creds.registered) {
                 await delay(1500);
                 num = num.replace(/[^0-9]/g, '');
-                const code = await Malvin.requestPairingCode(num);
+                const code = await Macoder.requestPairingCode(num);
                 console.log(`Your Code: ${code}`);
 
                 if (!res.headersSent) {
@@ -90,8 +90,8 @@ router.get('/', async (req, res) => {
                 }
             }
 
-            Malvin.ev.on('creds.update', saveCreds);
-            Malvin.ev.on("connection.update", async (s) => {
+            Maacoder.ev.on('creds.update', saveCreds);
+            Macodet.ev.on("connection.update", async (s) => {
                 const { connection, lastDisconnect } = s;
 
                 if (connection === "open") {
@@ -110,9 +110,9 @@ router.get('/', async (req, res) => {
 
                     console.log(`Session ID: ${sid}`);
 
-                    const session = await Malvin.sendMessage(Malvin.user.id, { text: sid });
+                    const session = await Macoder.sendMessage(Macoder.user.id, { text: sid });
 
-                    const MALVIN_TEXT = `
+                    const MACODER_TEXT = `
 🎉 *Welcome to MacoX-MD!* 🚀  
 
 🔒 *Your Session ID* is ready!  ⚠️ _Keep it private and secure — dont share it with anyone._ 
@@ -126,18 +126,18 @@ router.get('/', async (req, res) => {
 
 🔗 *Join Our Support Channel:* 👉 [Click Here to Join](https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z) 
 
-⭐ *Show Some Love!* Give us a ⭐ on GitHub and support the developer of: 👉 [Malvin King GitHub Repo](https://github.com/kingmalvn/)  
+⭐ *Show Some Love!* Give us a ⭐ on GitHub and support the developer of: 👉 [macoder67 GitHub Repo](https://github.com/macoder67/)  
 
 🚀 _Thanks for choosing MacoX-MD — Let the automation begin!_ ✨`;
 
                     await Malvin.sendMessage(Malvin.user.id, { text: MALVIN_TEXT }, { quoted: session });
 
                     await delay(100);
-                    await Malvin.ws.close();
+                    await Macoder.ws.close();
                     return removeFile('./temp/' + id);
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode !== 401) {
                     await delay(10000);
-                    MALVIN_PAIR_CODE();
+                    MACODER_PAIR_CODE();
                 }
             });
         } catch (err) {
