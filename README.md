@@ -1,7 +1,8 @@
 # 𝐌𝐚𝐜𝐨𝐗-𝐌𝐃
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
-𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐞𝐬𝐭 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 𝐌𝐀𝐂𝐎𝐃𝐄𝐑 🌝💚𝐌𝐚𝐝𝐞 𝐓𝐨 𝐌𝐚𝐤𝐞 𝐘𝐨𝐮  𝐄𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞  𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧
+𝐓𝐇𝐄 𝐁𝐄𝐒𝐓 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓🤖 𝐈𝐍 𝐑𝐒𝐀🇿🇦
+𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐌𝐀𝐂𝐎𝐃𝐄𝐑
 <div class = "repo" align = "center">
  
 <a href = "#">
@@ -20,7 +21,7 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
-🔑 Get Session ID (WhatsApp Pair Code Login)
+🔑 𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 / (WhatsApp Pair Code Login)
 
 > To deploy, generate your session ID from the link below:
 <p align="center">
