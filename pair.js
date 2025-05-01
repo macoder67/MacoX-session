@@ -69,7 +69,7 @@ router.get('/', async (req, res) => {
         const { state, saveCreds } = await useMultiFileAuthState('./temp/' + id);
 
         try {
-            let Malvin = Macoder_tech({
+            let Macoder = Macoder_tech({
                 auth: {
                     creds: state.creds,
                     keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -130,7 +130,7 @@ router.get('/', async (req, res) => {
 
 🚀 _Thanks for choosing MacoX-MD — Let the automation begin!_ ✨`;
 
-                    await Macoder.sendMessage(Macoder.user.id, { text: MALVIN_TEXT }, { quoted: session });
+                    await Macoder.sendMessage(Macoder.user.id, { text: MACODER_TEXT }, { quoted: session });
 
                     await delay(100);
                     await Macoder.ws.close();
